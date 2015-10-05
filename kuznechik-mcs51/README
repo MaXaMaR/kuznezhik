@@ -1,0 +1,12 @@
+
+8-bit MCS-51 optimized version
+Uses very optimized multuplication GF(2^8) algorithm with 512 bytes of tables
+Needs additional work to fit 10 of 160 bytes of round keys to microcontroller RAM
+or bult-in them.
+
+Tools:
+ASEM-51
+M-IDE
+JSIM-51
+
+Tools Package: http://www.opcube.com/home.html#MIDE51

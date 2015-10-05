@@ -1,0 +1,23 @@
+
+Use special provided version of NASM from ./nasm/preproc-rewrite
+
+Build NASM compiler:
+cd nasm/preproc-rewrite && make
+
+Build as that:
+mkdir build && mkdir bin && cd build && cmake .. && make && make install
+
+Installled files go to ./bin
+
+Generated files:
+*_defines.inc
+*_data.inc
+
+Use ./bin/tables_generator to regenerate tables
+
+Base algorithm used from:
+https://github.com/mjosaarinen/kuznechik
+
+Builds versions:
+8/16/32/65-bit with optimized multiplication/table multiplication/whole tables
+

@@ -1,0 +1,2 @@
+kuz_encrypt_block(): 811.867 kB/s (n=3200kB,t=3.942s)
+kuz_decrypt_block(): 825.411 kB/s (n=3200kB,t=3.877s)
