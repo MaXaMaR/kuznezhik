@@ -1,0 +1,100 @@
+Config: bits: 128, optimize mult: 0, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 854.798 kB/s (n=3200kB,t=3.744s)
+kuz_decrypt_block(): 850.183 kB/s (n=3200kB,t=3.764s)
+Tables: 0.0K (encrypt: 0.0K, decrypt: 0.0K)
+------------------------------------------
+Config: bits: 128, optimize mult: 1, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 3234.977 kB/s (n=12800kB,t=3.957s)
+kuz_decrypt_block(): 3204.980 kB/s (n=12800kB,t=3.994s)
+Tables: 0.5K (encrypt: 0.5K, decrypt: 0.5K)
+------------------------------------------
+Config: bits: 128, optimize mult: 0, use mul table: 1, use tables: 0
+kuz_encrypt_block(): 12149.653 kB/s (n=25600kB,t=2.107s)
+kuz_decrypt_block(): 11944.599 kB/s (n=25600kB,t=2.143s)
+Tables: 64.0K (encrypt: 64.0K, decrypt: 64.0K)
+------------------------------------------
+Config: bits: 128, optimize mult: 0, use mul table: 0, use tables: 1
+kuz_encrypt_block(): 126774.840 kB/s (n=409600kB,t=3.231s)
+kuz_decrypt_block(): 114589.774 kB/s (n=409600kB,t=3.574s)
+Tables: 192.0K (encrypt: 64.0K, decrypt: 128.0K)
+------------------------------------------
+Config: bits: 16, optimize mult: 0, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 859.903 kB/s (n=3200kB,t=3.721s)
+kuz_decrypt_block(): 865.407 kB/s (n=3200kB,t=3.698s)
+Tables: 0.0K (encrypt: 0.0K, decrypt: 0.0K)
+------------------------------------------
+Config: bits: 16, optimize mult: 1, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 3212.924 kB/s (n=12800kB,t=3.984s)
+kuz_decrypt_block(): 3198.781 kB/s (n=6400kB,t=2.001s)
+Tables: 0.5K (encrypt: 0.5K, decrypt: 0.5K)
+------------------------------------------
+Config: bits: 16, optimize mult: 0, use mul table: 1, use tables: 0
+kuz_encrypt_block(): 12062.647 kB/s (n=25600kB,t=2.122s)
+kuz_decrypt_block(): 12100.386 kB/s (n=25600kB,t=2.116s)
+Tables: 64.0K (encrypt: 64.0K, decrypt: 64.0K)
+------------------------------------------
+Config: bits: 16, optimize mult: 0, use mul table: 0, use tables: 1
+kuz_encrypt_block(): 31742.420 kB/s (n=102400kB,t=3.226s)
+kuz_decrypt_block(): 30435.546 kB/s (n=102400kB,t=3.364s)
+Tables: 192.0K (encrypt: 64.0K, decrypt: 128.0K)
+------------------------------------------
+Config: bits: 32, optimize mult: 0, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 854.477 kB/s (n=3200kB,t=3.745s)
+kuz_decrypt_block(): 833.428 kB/s (n=3200kB,t=3.840s)
+Tables: 0.0K (encrypt: 0.0K, decrypt: 0.0K)
+------------------------------------------
+Config: bits: 32, optimize mult: 1, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 3298.299 kB/s (n=12800kB,t=3.881s)
+kuz_decrypt_block(): 3303.136 kB/s (n=12800kB,t=3.875s)
+Tables: 0.5K (encrypt: 0.5K, decrypt: 0.5K)
+------------------------------------------
+Config: bits: 32, optimize mult: 0, use mul table: 1, use tables: 0
+kuz_encrypt_block(): 12261.147 kB/s (n=25600kB,t=2.088s)
+kuz_decrypt_block(): 12211.398 kB/s (n=25600kB,t=2.096s)
+Tables: 64.0K (encrypt: 64.0K, decrypt: 64.0K)
+------------------------------------------
+Config: bits: 32, optimize mult: 0, use mul table: 0, use tables: 1
+kuz_encrypt_block(): 69524.622 kB/s (n=204800kB,t=2.946s)
+kuz_decrypt_block(): 66832.551 kB/s (n=204800kB,t=3.064s)
+Tables: 192.0K (encrypt: 64.0K, decrypt: 128.0K)
+------------------------------------------
+Config: bits: 64, optimize mult: 0, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 872.403 kB/s (n=3200kB,t=3.668s)
+kuz_decrypt_block(): 865.948 kB/s (n=3200kB,t=3.695s)
+Tables: 0.0K (encrypt: 0.0K, decrypt: 0.0K)
+------------------------------------------
+Config: bits: 64, optimize mult: 1, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 3320.454 kB/s (n=12800kB,t=3.855s)
+kuz_decrypt_block(): 3331.553 kB/s (n=12800kB,t=3.842s)
+Tables: 0.5K (encrypt: 0.5K, decrypt: 0.5K)
+------------------------------------------
+Config: bits: 64, optimize mult: 0, use mul table: 1, use tables: 0
+kuz_encrypt_block(): 12227.946 kB/s (n=25600kB,t=2.094s)
+kuz_decrypt_block(): 12228.741 kB/s (n=25600kB,t=2.093s)
+Tables: 64.0K (encrypt: 64.0K, decrypt: 64.0K)
+------------------------------------------
+Config: bits: 64, optimize mult: 0, use mul table: 0, use tables: 1
+kuz_encrypt_block(): 111395.401 kB/s (n=409600kB,t=3.677s)
+kuz_decrypt_block(): 101636.557 kB/s (n=204800kB,t=2.015s)
+Tables: 192.0K (encrypt: 64.0K, decrypt: 128.0K)
+------------------------------------------
+Config: bits: 8, optimize mult: 0, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 835.081 kB/s (n=3200kB,t=3.832s)
+kuz_decrypt_block(): 846.825 kB/s (n=3200kB,t=3.779s)
+Tables: 0.0K (encrypt: 0.0K, decrypt: 0.0K)
+------------------------------------------
+Config: bits: 8, optimize mult: 1, use mul table: 0, use tables: 0
+kuz_encrypt_block(): 3253.640 kB/s (n=12800kB,t=3.934s)
+kuz_decrypt_block(): 3233.591 kB/s (n=12800kB,t=3.958s)
+Tables: 0.5K (encrypt: 0.5K, decrypt: 0.5K)
+------------------------------------------
+Config: bits: 8, optimize mult: 0, use mul table: 1, use tables: 0
+kuz_encrypt_block(): 11236.276 kB/s (n=25600kB,t=2.278s)
+kuz_decrypt_block(): 12110.168 kB/s (n=25600kB,t=2.114s)
+Tables: 64.0K (encrypt: 64.0K, decrypt: 64.0K)
+------------------------------------------
+Config: bits: 8, optimize mult: 0, use mul table: 0, use tables: 1
+kuz_encrypt_block(): 13603.432 kB/s (n=51200kB,t=3.764s)
+kuz_decrypt_block(): 13369.232 kB/s (n=51200kB,t=3.830s)
+Tables: 192.0K (encrypt: 64.0K, decrypt: 128.0K)
+

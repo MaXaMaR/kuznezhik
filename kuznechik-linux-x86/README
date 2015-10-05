@@ -19,5 +19,5 @@ Base algorithm used from:
 https://github.com/mjosaarinen/kuznechik
 
 Builds versions:
-8/16/32/65-bit with optimized multiplication/table multiplication/whole tables
+8/16/32/64/128-bit with optimized multiplication/table multiplication/whole tables
 
