@@ -1,3 +1,4 @@
+Tools: GCC & NASM
 
 Use special provided version of NASM from ./nasm/preproc-rewrite
 
