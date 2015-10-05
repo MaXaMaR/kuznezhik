@@ -1,7 +1,5 @@
 Tools: GCC & NASM
 
-Readme for special NASM version here: ./nasm/preproc-rewrite
-
 Build NASM compiler:
 cd nasm/preproc-rewrite && make
 
