@@ -1,7 +1,7 @@
 
 8-bit MCS-51 optimized version
 Uses very optimized multuplication GF(2^8) algorithm with 512 bytes of tables
-Needs additional work to fit 10 of 160 bytes of round keys to microcontroller RAM
+Needs additional work to fit 160 bytes of round keys to microcontroller's RAM
 or bult-in them.
 
 Tools:
