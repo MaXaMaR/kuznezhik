@@ -3,7 +3,7 @@ Tools: GCC & NASM
 Build NASM compiler:
 cd nasm/preproc-rewrite && make
 
-Build as that:
+Build:
 mkdir build && mkdir bin && cd build && cmake .. && make && make install
 
 Installled files go to ./bin
@@ -17,7 +17,7 @@ Use ./bin/tables_generator to regenerate tables
 Base algorithm used from:
 https://github.com/mjosaarinen/kuznechik
 
-Builds versions:
+Versions:
 8/16/32/64/128-bit with optimized multiplication/table multiplication/whole tables
 
 Benchmark results for 2,6 GHz Intel Core i7:
