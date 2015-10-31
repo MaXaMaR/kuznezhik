@@ -1,7 +1,7 @@
 Tools: GCC & NASM
 
 Build NASM compiler:
-cd nasm/preproc-rewrite && make
+cd nasm/preproc-rewrite && sh ./autogen.sh && ./configure && make
 
 Build:
 mkdir build && mkdir bin && cd build && cmake .. && make && make install
