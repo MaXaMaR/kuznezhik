@@ -1,3 +1,0 @@
-[submodule "kuznechik-linux-x86/nasm/preproc-rewrite"]
-	path = kuznechik-linux-x86/nasm/preproc-rewrite
-	url = https://github.com/cyrillos/nasm.git
