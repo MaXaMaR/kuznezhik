@@ -1,9 +1,3 @@
-
-// kuznechik.c
-// 04-Jan-15  Markku-Juhani O. Saarinen <mjos@iki.fi>
-
-// main() for testing
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
