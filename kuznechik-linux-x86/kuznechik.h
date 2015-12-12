@@ -1,6 +1,3 @@
-// kuznechik.h
-// 04-Jan-15  Markku-Juhani O. Saarinen <mjos@iki.fi>
-
 #ifndef KUZNECHIK_H
 #define KUZNECHIK_H
 
