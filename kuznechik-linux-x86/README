@@ -1,10 +1,13 @@
 Tools: GCC & NASM
 
+Init NASM submodule:
+cd .. && git submodule init && git submodule update && cd kuznechik-linux-x86
+
 Build NASM compiler:
-cd nasm/preproc-rewrite && sh ./autogen.sh && ./configure && make
+cd nasm/preproc-rewrite && sh ./autogen.sh && ./configure && make && cd ../../
 
 Build:
-mkdir build && mkdir bin && cd build && cmake .. && make && make install
+mkdir build && mkdir bin && cd build && cmake .. && make && make install && cd ../bin
 
 Installled files go to ./bin
 
